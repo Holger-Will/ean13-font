@@ -1,0 +1,2 @@
+@font-face { font-family: 'ean13_font'; src: url('fonts/EAN13_Font_With_Numbers.woff'); }
+.ean13_font { font-family: ean13_font; font-size:120px }
