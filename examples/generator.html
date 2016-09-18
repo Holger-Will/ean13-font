@@ -6,6 +6,7 @@
     <link href="../ean13_all.css" rel="stylesheet"/>
     <style>
       #output{margin:10px}
+      #output2{margin:10px}
     </style>
     <script>
       var gug = ["LLLLLL","LLGLGG","LLGGLG","LLGGGL","LGLLGG","LGGLLG","LGGGLL","LGLGLG","LGLGGL","LGGLGL"]
@@ -35,7 +36,7 @@
         pr=(10-(pr%10))%10
         enc+="R"+pr
         enc+="*"
-        
+
         document.querySelector("#output").innerText=enc
       }
     </script>
@@ -43,5 +44,6 @@
   <body>
     <input id="input" type="text" onkeyup="updatebarcode()"/>
     <div id="output" class="ean13_font"></div>
+    <div id="output2" class="ean13_font2"></div>
   </body>
 </html>

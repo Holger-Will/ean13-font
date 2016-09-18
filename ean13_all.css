@@ -1,2 +1,4 @@
 @font-face { font-family: 'ean13_font'; src: url('fonts/EAN13_Font_With_Numbers.ttf'); }
 .ean13_font { font-family: ean13_font; font-size:120px }
+@font-face { font-family: 'ean13_font2'; src: url('fonts/Super128.ttf'); }
+.ean13_font2 { font-family: ean13_font; font-size:120px }
