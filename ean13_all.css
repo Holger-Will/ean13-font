@@ -1,2 +1,2 @@
-@font-face { font-family: 'ean13_font'; src: url('fonts/ean13.woff')}
-.ean13_font { font-family: ean13_font; font-size:120px }
+@font-face { font-variant-ligatures: discretionary-ligatures;font-family: 'ean13_font'; src: url('fonts/ean13.woff')}
+.ean13_font { font-variant-ligatures: discretionary-ligatures;font-family: 'ean13_font'; font-size:120px }
