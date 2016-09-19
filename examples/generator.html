@@ -15,7 +15,7 @@
         var txt = document.querySelector("#input").value
         // Left Block
         var first = txt[0]
-        var enc = first+"*"
+        var enc = "_"+first+"*"
         var max = ((txt.length<7)? txt.length:7)
         for(var i = 1;i< max;i++){
           enc+=gug[first][i-1]+txt[i]
@@ -46,6 +46,6 @@
   <body>
     Type some digits: <input id="input" type="text" onkeyup="updatebarcode()"/>
     <div id="output" class="ean13_font"></div>
-    <div id="output2" class="ean13_font2"></div>
+    <div id="output2"></div>
   </body>
 </html>
