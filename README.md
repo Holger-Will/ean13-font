@@ -4,7 +4,7 @@ The ean13 font can be used to render ean13 encoded strings.
 
 as there is no special string encoding defined for EAN/GTIN i made it up myself.
 
-[live example](https://cdn.rawgit.com/Holger-Will/ean13-font/master/examples/generator.html)
+[live example](https://cdn.rawgit.com/Holger-Will/ean13-font/f64783473ff959cf37bd87e2c263acb40b4aea6b/examples/generator.html)
 
 you can create your own font using the  [barcode-font-generator](https://github.com/Holger-Will/barcode-font-generator)
 
@@ -45,4 +45,4 @@ so the encoded string now looks like this:
 
 when you display this string with the ean13 font, it will produce a nicely scannable barcode.
 
-see the [example generator](https://rawgit.com/Holger-Will/ean13-font/master/examples/generator.html)
+see the [example generator](https://cdn.rawgit.com/Holger-Will/ean13-font/f64783473ff959cf37bd87e2c263acb40b4aea6b/examples/generator.html)
