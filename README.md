@@ -1,4 +1,4 @@
-# ean13_font
+# Creating EAN13 barcode in PHP or JS, using a font
 
 The ean13 font can be used to render ean13 encoded strings.
 
